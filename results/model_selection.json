@@ -1,0 +1,10 @@
+{
+  "selected_candidate": "SVR_log_scaled",
+  "selection_rule": "Lowest mean grouped cross-validation RMSE on development data",
+  "cv_rmse_db": 2.828991560268668,
+  "best_parameters": {
+    "model__C": 100.0,
+    "model__epsilon": 0.5,
+    "model__gamma": 0.05
+  }
+}
