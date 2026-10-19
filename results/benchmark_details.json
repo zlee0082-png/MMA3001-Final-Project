@@ -1,0 +1,16 @@
+{
+  "python_version": "3.12.10",
+  "scikit_learn_version": "1.9.1",
+  "numpy_version": "2.4.4",
+  "pandas_version": "3.0.6",
+  "operating_system": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "logical_cpu_count": 12,
+  "supported_threadpool_limit": 1,
+  "training_rows": 1182,
+  "prediction_rows": 200,
+  "timing_repetitions": 5,
+  "prediction_calls_per_runtime_repetition": 10,
+  "batch_speedup": 38.314772303148104,
+  "maximum_prediction_difference_db": 0.0
+}

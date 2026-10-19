@@ -1,0 +1,23 @@
+         1292658 function calls (1266055 primitive calls) in 2.493 seconds
+
+   Ordered by: cumulative time
+   List reduced from 621 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      200    0.004    0.000    2.374    0.012 pipeline.py:746(predict)
+      2/1    0.016    0.008    2.331    2.331 1568082554.py:3(predict_one_at_a_time)
+  800/400    0.008    0.000    2.125    0.005 _set_output.py:325(wrapped)
+      200    0.015    0.000    1.955    0.010 _column_transformer.py:1009(transform)
+      200    0.009    0.000    1.579    0.008 _column_transformer.py:815(_call_func_on_transformers)
+      600    0.010    0.000    0.870    0.001 validation.py:2932(validate_data)
+      200    0.002    0.000    0.808    0.004 parallel.py:54(__call__)
+      200    0.005    0.000    0.805    0.004 parallel.py:1995(__call__)
+      800    0.005    0.000    0.789    0.001 parallel.py:1914(_get_sequential_output)
+      400    0.035    0.000    0.779    0.002 parallel.py:140(__call__)
+ 1200/800    0.011    0.000    0.739    0.001 indexing.py:1192(__getitem__)
+      600    0.035    0.000    0.688    0.001 validation.py:733(check_array)
+      400    0.004    0.000    0.687    0.002 _indexing.py:205(_safe_indexing)
+      400    0.002    0.000    0.680    0.002 pipeline.py:1524(_transform_one)
+      400    0.007    0.000    0.670    0.002 _function_transformer.py:237(transform)
+
+
