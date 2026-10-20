@@ -1,0 +1,7 @@
+parameter,value,unit
+intercept,132.62183851672006,dB
+frequency_hz,-0.001225699081235293,dB per Hz
+angle_deg,-0.3972467643933003,dB per degree
+chord_m,-36.722636180862395,dB per m
+velocity_m_s,0.10212248012839302,dB per (m/s)
+displacement_thickness_m,-159.83373912368702,dB per m

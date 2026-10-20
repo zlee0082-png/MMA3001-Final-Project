@@ -1,0 +1,5 @@
+check,count
+Missing or non-numeric entries,0
+Infinite entries,0
+"Nonpositive frequency, chord, velocity or thickness",0
+Exact duplicate rows,0

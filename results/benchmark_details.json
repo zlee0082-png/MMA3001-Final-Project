@@ -11,6 +11,6 @@
   "prediction_rows": 200,
   "timing_repetitions": 5,
   "prediction_calls_per_runtime_repetition": 10,
-  "batch_speedup": 38.314772303148104,
+  "batch_speedup": 32.88937550858997,
   "maximum_prediction_difference_db": 0.0
 }

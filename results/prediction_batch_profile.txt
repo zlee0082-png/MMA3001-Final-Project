@@ -1,23 +1,23 @@
-         6312 function calls (6184 primitive calls) in 0.036 seconds
+         6312 function calls (6184 primitive calls) in 0.022 seconds
 
    Ordered by: cumulative time
    List reduced from 597 to 15 due to restriction <15>
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-        1    0.000    0.000    0.036    0.036 1568082554.py:13(predict_in_batch)
-        1    0.000    0.000    0.036    0.036 pipeline.py:746(predict)
-        1    0.000    0.000    0.026    0.026 _base.py:455(predict)
-        1    0.026    0.026    0.026    0.026 _base.py:475(_dense_predict)
-      4/2    0.000    0.000    0.009    0.005 _set_output.py:325(wrapped)
-        1    0.000    0.000    0.008    0.008 _column_transformer.py:1009(transform)
-        1    0.000    0.000    0.007    0.007 _column_transformer.py:815(_call_func_on_transformers)
-        3    0.000    0.000    0.004    0.001 validation.py:2932(validate_data)
+        1    0.000    0.000    0.022    0.022 1568082554.py:13(predict_in_batch)
+        1    0.000    0.000    0.022    0.022 pipeline.py:746(predict)
+        1    0.000    0.000    0.015    0.015 _base.py:455(predict)
+        1    0.015    0.015    0.015    0.015 _base.py:475(_dense_predict)
+      4/2    0.000    0.000    0.007    0.003 _set_output.py:325(wrapped)
+        1    0.000    0.000    0.006    0.006 _column_transformer.py:1009(transform)
+        1    0.000    0.000    0.005    0.005 _column_transformer.py:815(_call_func_on_transformers)
+        3    0.000    0.000    0.003    0.001 validation.py:2932(validate_data)
         1    0.000    0.000    0.003    0.003 parallel.py:54(__call__)
         1    0.000    0.000    0.003    0.003 parallel.py:1995(__call__)
         4    0.000    0.000    0.003    0.001 parallel.py:1914(_get_sequential_output)
-        2    0.000    0.000    0.003    0.002 parallel.py:140(__call__)
-        2    0.000    0.000    0.003    0.001 _indexing.py:205(_safe_indexing)
-        3    0.000    0.000    0.003    0.001 validation.py:733(check_array)
-        2    0.000    0.000    0.003    0.001 pipeline.py:1524(_transform_one)
+        2    0.000    0.000    0.002    0.001 parallel.py:140(__call__)
+        2    0.000    0.000    0.002    0.001 pipeline.py:1524(_transform_one)
+        2    0.000    0.000    0.002    0.001 _function_transformer.py:237(transform)
+        2    0.000    0.000    0.002    0.001 _indexing.py:205(_safe_indexing)
 
 
