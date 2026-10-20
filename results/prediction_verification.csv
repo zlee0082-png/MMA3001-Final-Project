@@ -1,0 +1,11 @@
+test,status,message
+Wrong container,PASS,Inputs must be a pandas DataFrame.
+Empty input,PASS,Provide at least one input row.
+Missing column,PASS,Column mismatch. Missing: ['frequency_hz']; extra: []
+Extra column,PASS,Column mismatch. Missing: []; extra: ['unexpected_column']
+Duplicate column,PASS,Duplicate column names are not supported.
+Text input,PASS,frequency_hz must contain real numeric values.
+Missing value,PASS,Missing input values are not supported.
+Infinite value,PASS,Infinite input values are not supported.
+Zero frequency,PASS,"Frequency, chord, velocity and thickness must be positive."
+Outside supported range,PASS,Inputs outside supported development ranges: ['velocity_m_s']
