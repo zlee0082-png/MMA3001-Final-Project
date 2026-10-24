@@ -40,6 +40,27 @@ To regenerate the documentation after editing the source code:
 python -m pip install pdoc
 python -m pdoc --docformat numpy -o docs airfoil_prediction.py predict.py
 ```
+## Automated Tests
+
+The tests check the saved prediction interface, invalid-input handling,
+column ordering, output row alignment and command-line CSV prediction.
+
+Run from the repository's main folder using the project Python environment:
+
+```bash
+python -m pip install pytest pytest-html
+python -m pytest tests -v --html=results/test_report.html --self-contained-html
+```
+
+The tests require:
+
+- `models/final_airfoil_model.joblib`
+- `examples/prediction_inputs.csv`
+
+Open `results/test_report.html` in a browser to inspect the results.
+
+These tests verify software behaviour. Predictive accuracy is assessed
+separately through grouped cross-validation and reserved-test evaluation.
 
 ## 1. Engineering Problem
 
