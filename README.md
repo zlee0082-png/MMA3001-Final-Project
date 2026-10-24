@@ -15,6 +15,32 @@ Recorded performance:
 - Final-test RMSE: **2.410 dB**
 - Mean-baseline final-test RMSE: **6.853 dB**
 
+## Licence
+
+The project's original source code is licensed under the MIT License.
+See [LICENSE](LICENSE).
+
+The UCI Airfoil Self-Noise dataset is separately licensed under
+CC BY 4.0 and retains its original attribution and licence.
+
+## Source Code Documentation
+
+HTML API documentation is stored in `docs/`:
+
+- `docs/airfoil_prediction.html`: prediction function, input requirements,
+  output and error handling.
+- `docs/predict.html`: command-line prediction workflow.
+
+To view the documentation, download or clone the repository and open
+the HTML files in a web browser.
+
+To regenerate the documentation after editing the source code:
+
+```bash
+python -m pip install pdoc
+python -m pdoc --docformat numpy -o docs airfoil_prediction.py predict.py
+```
+
 ## 1. Engineering Problem
 
 Airfoil self-noise affects the acoustic performance of aerodynamic components. Measuring noise experimentally for every combination of operating conditions requires time and resources.
