@@ -1,23 +1,23 @@
-         1292639 function calls (1266036 primitive calls) in 1.254 seconds
+         1292729 function calls (1266127 primitive calls) in 1.464 seconds
 
    Ordered by: cumulative time
-   List reduced from 621 to 15 due to restriction <15>
+   List reduced from 645 to 15 due to restriction <15>
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-      200    0.002    0.000    1.190    0.006 pipeline.py:746(predict)
-      2/1    0.010    0.005    1.069    1.069 1568082554.py:3(predict_one_at_a_time)
-  800/400    0.004    0.000    1.064    0.003 _set_output.py:325(wrapped)
-      200    0.007    0.000    0.979    0.005 _column_transformer.py:1009(transform)
-      200    0.005    0.000    0.792    0.004 _column_transformer.py:815(_call_func_on_transformers)
-      600    0.005    0.000    0.437    0.001 validation.py:2932(validate_data)
-      200    0.001    0.000    0.408    0.002 parallel.py:54(__call__)
-      200    0.003    0.000    0.406    0.002 parallel.py:1995(__call__)
-      800    0.003    0.000    0.396    0.000 parallel.py:1914(_get_sequential_output)
-      400    0.017    0.000    0.392    0.001 parallel.py:140(__call__)
- 1200/800    0.006    0.000    0.366    0.000 indexing.py:1192(__getitem__)
-      600    0.017    0.000    0.345    0.001 validation.py:733(check_array)
-      400    0.001    0.000    0.342    0.001 pipeline.py:1524(_transform_one)
-      400    0.002    0.000    0.339    0.001 _indexing.py:205(_safe_indexing)
-      400    0.003    0.000    0.338    0.001 _function_transformer.py:237(transform)
+      200    0.003    0.000    1.380    0.007 pipeline.py:746(predict)
+        1    0.003    0.003    1.286    1.286 4106489718.py:3(predict_one_at_a_time)
+  800/400    0.004    0.000    1.245    0.003 _set_output.py:325(wrapped)
+      200    0.009    0.000    1.148    0.006 _column_transformer.py:1009(transform)
+      200    0.006    0.000    0.926    0.005 _column_transformer.py:815(_call_func_on_transformers)
+      600    0.006    0.000    0.503    0.001 validation.py:2932(validate_data)
+      200    0.001    0.000    0.470    0.002 parallel.py:54(__call__)
+      200    0.003    0.000    0.468    0.002 parallel.py:1995(__call__)
+      800    0.003    0.000    0.458    0.001 parallel.py:1914(_get_sequential_output)
+      400    0.021    0.000    0.453    0.001 parallel.py:140(__call__)
+ 1200/800    0.006    0.000    0.439    0.001 indexing.py:1192(__getitem__)
+      400    0.003    0.000    0.403    0.001 _indexing.py:205(_safe_indexing)
+      600    0.020    0.000    0.398    0.001 validation.py:733(check_array)
+      400    0.001    0.000    0.395    0.001 pipeline.py:1524(_transform_one)
+      400    0.004    0.000    0.389    0.001 _function_transformer.py:237(transform)
 
 

@@ -37,6 +37,9 @@
     "displacement_thickness_m": 0.0584113
   },
   "training_rows": 1182,
+  "range_basis": "Per-feature minimum and maximum of development inputs",
+  "range_policy": "Reject inputs outside the recorded development ranges",
+  "range_limitation": "Being inside each feature range does not guarantee that the combination was represented in training or that predictions are accurate.",
   "versions": {
     "python": "3.12.10",
     "numpy": "2.4.4",
